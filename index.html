@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arisen Tour Agency</title>
+<style>
+body{font-family:Arial,sans-serif;margin:0;padding:0;background:#fff;color:#333;}
+a{text-decoration:none;color:#0B3D91;}
+header{background:#0B3D91;color:white;padding:15px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;}
+header img{height:60px;margin-right:15px;}
+header nav a{color:white;margin-left:20px;font-weight:bold;}
+header nav a:hover{color:#FFD700;}
+.section{padding:40px;text-align:center;}
+.section h2{color:#0B3D91;margin-bottom:30px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
+.card{box-shadow:0 5px 15px rgba(0,0,0,0.1);border-radius:10px;overflow:hidden;}
+.card img{width:100%;height:200px;object-fit:cover;}
+.card h3{margin:10px;color:#0B3D91;}
+.card p{margin:10px;}
+.card button{margin:10px;padding:10px 20px;background:#25D366;color:white;border:none;border-radius:5px;cursor:pointer;}
+.card button:hover{background:#1ebe57;}
+#booking div{max-width:600px;margin:auto;}
+#booking button{width:100%;padding:15px;margin:10px 0;font-size:18px;background:#25D366;color:white;border:none;border-radius:5px;}
+footer{background:#0B3D91;color:white;text-align:center;padding:20px;}
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <div style="display:flex;align-items:center;">
+    <img src="images/logo.png" alt="Arisen Tour Agency Logo">
+    <h1>Arisen Tour Agency</h1>
+  </div>
+  <nav>
+    <a href="arisen-tour-agency.html">Home</a>
+    <a href="rwanda.html">Rwanda</a>
+    <a href="uganda.html">Uganda</a>
+    <a href="tanzania.html">Tanzania</a>
+    <a href="#booking">Book</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="section">
+  <img src="images/akagera.jpg" alt="Akagera National Park" style="width:100%;max-height:400px;object-fit:cover;border-radius:10px;">
+  <h2>Adventure Awaits in Africa</h2>
+  <p>Explore breathtaking mountains, wild animals, and unforgettable experiences</p>
+</section>
+
+<!-- Rwanda Highlights -->
+<section class="section">
+  <h2>Rwanda Highlights</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="images/akagera.jpg" alt="Akagera National Park">
+      <h3>Akagera National Park</h3>
+      <p>Safari adventures with lions, elephants, and giraffes.</p>
+      <a href="rwanda.html"><button>Explore Rwanda Tours</button></a>
+    </div>
+    <div class="card">
+      <img src="images/nyungwe.jpg" alt="Nyungwe Forest">
+      <h3>Nyungwe Forest</h3>
+      <p>Chimpanzee trekking and rainforest canopy walks.</p>
+      <a href="rwanda.html"><button>Explore Rwanda Tours</button></a>
+    </div>
+  </div>
+</section>
+
+<!-- Countries -->
+<section class="section">
+  <h2>Explore All Tours</h2>
+  <div class="grid">
+    <div class="card">
+      <img src="images/akagera.jpg" alt="Rwanda">
+      <h3>Rwanda</h3>
+      <a href="rwanda.html"><button>See Tours</button></a>
+    </div>
+    <div class="card">
+      <img src="images/nyungwe.jpg" alt="Uganda">
+      <h3>Uganda</h3>
+      <a href="uganda.html"><button>See Tours</button></a>
+    </div>
+    <div class="card">
+      <img src="images/nyungwe.jpg" alt="Tanzania">
+      <h3>Tanzania</h3>
+      <a href="tanzania.html"><button>See Tours</button></a>
+    </div>
+  </div>
+</section>
+
+<!-- Booking -->
+<section class="section" id="booking">
+  <h2>Book Your Tour via WhatsApp</h2>
+  <div>
+    <a href="https://wa.me/250781993529" target="_blank"><button>📱 WhatsApp +250781993529</button></a>
+    <a href="https://wa.me/250781711976" target="_blank"><button>📱 WhatsApp +250781711976</button></a>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Arisen Tour Agency | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
